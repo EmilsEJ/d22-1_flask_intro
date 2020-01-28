@@ -22,7 +22,7 @@ def contact():
 def params():
   return  request.args
   
-@app.route('/post_req',methods = ["POST"])
+@app.route('/post_req',methods = ["POST"])"ss"
 def post_req():
   return request.args
 
